@@ -204,6 +204,7 @@ main {
 
 /* Habits container */
 .habits-section {
+  padding-top: 4rem;
   text-align: center;
 }
 .habits-card-cotainer {
@@ -282,6 +283,71 @@ main {
 }
 
 
+/* habits section end here */
+
+
+/* run section strat here */
+
+
+.run-section{
+  margin: 5rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding:2rem 3rem ;
+  background-color: #222;
+
+
+}
+
+.run-img-conmtainer{
+  
+}
+
+.run-img{
+  width: 400px;
+  height: auto;
+  /* background-image: url("../images/run.jpg"); */
+  background-position: center;
+  background-size: cover;
+
+}
+.run-img img{
+  width: 100%;
+}
+.run-info{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive layout */
 
@@ -346,8 +412,17 @@ main {
   .banner-card-bottom h1 {
     margin-bottom: 5px;
   }
+
+  /* habits section */
   .habits-card-cotainer {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* run section */
+  .run-section{
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
   }
 }
 
