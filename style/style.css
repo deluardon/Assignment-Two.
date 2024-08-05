@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif, "Miama";
+}
+
+/* navber section style here */
+.navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.navber ul li {
+  list-style-type: none;
+}
+.navber > li:first-child {
+  list-style: none;
+}
+.navber > li a:first-child {
+  text-decoration: none;
+}
+
+.navber ul {
+  gap: 2rem;
+  display: flex;
+}
+.navber ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.Fitness {
+  color: #e6533c;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.home {
+  border-radius: 46px;
+  padding: 8px 20px;
+  background: #e6533c;
+}
+
+.navber-menu {
+  display: none;
+}
+
+/* navber section style end here */
+
+header {
+  background: linear-gradient(180deg, #111 100%, rgba(119, 119, 119, 0) 100%);
+}
+
+/* banner-section style start here */
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 1rem;
+}
+.banner-info {
+  color: #fff;
+}
+.banner-img {
+  position: relative;
+}
+
+.banner-card-bottom {
+  position: absolute;
+  bottom: -2rem;
+  right: 25rem;
+  width: 200px;
+  height: 96px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(10px);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.banner-card-bottom h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+.banner-card-bottom small {
+  color: var(rgba(239, 237, 232, 0.65));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.fa-circle-play {
+  font-size: 3rem;
+  color: #e6533c;
+  display: none;
+}
+.banner-circel {
+  color: #e6533c;
+  font-size: 3rem;
+}
+.banner-card-top {
+  position: absolute;
+  bottom: 16rem;
+  right: 3rem;
+  width: 200px;
+  height: 96px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(48, 48, 48, 0.54);
+  backdrop-filter: blur(10px);
+  padding: 5px;
+}
+.banner-card-top h1 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.banner-card-top small {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 14px;
+  padding: 10px;
+}
+
+.banner-info h1 span {
+  color: #fff;
+  font-family: Miama;
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 120%;
+}
+.banner-info h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+.banner-info p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 1rem;
+}
+
+.banner-btn-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.Join-Club-Now {
+
+  padding: 16px 50px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #E6533C;
+  border-radius: 3rem;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+.Download-App{
+  background: linear-gradient(180deg, #111 100%, rgba(119, 119, 119, 0) 100%);
+
+  padding: 16px 50px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 3rem;
+  border: 1px solid ;
+  color: #fff;
+  font-size: 1rem;
+  
+}
+
+/* banner section end here */
+
+/* Responsive layout */
+
+@media screen and (max-width: 576.99px) {
+  /* navber section start here */
+  .navber ul {
+    display: none;
+  }
+  .navber-menu {
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  /* navber section end here */
+
+  /* banner section start here */
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .banner-card-bottom {
+    top: 48rem;
+    left: 5rem;
+    width: 145px;
+    height: 70px;
+    gap: 10px;
+  }
+  .banner-card-top {
+    bottom: -10rem;
+    right: 1.5rem;
+    width: 145px;
+    height: 70px;
+  }
+  .banner-card-top h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding: 0px;
+  }
+  .banner-card-top small {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .banner-info {
+    text-align: left;
+  }
+  .banner-circel {
+    display: none;
+  }
+  .fa-circle-play {
+    display: block;
+    font-size: 2rem;
+  }
+  .banner-card-bottom small {
+    font-size: 14px;
+  }
+  .banner-card-bottom h1 {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 576.99px) and (max-width: 992.99px) {
+}
+
+@media screen and (min-width: 992.99px) {
+}
