@@ -170,18 +170,17 @@ header {
   margin-top: 3rem;
 }
 .Join-Club-Now {
-
   padding: 16px 50px;
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
-  background-color: #E6533C;
+  background-color: #e6533c;
   border-radius: 3rem;
   border: none;
   color: #fff;
   font-size: 1rem;
 }
-.Download-App{
+.Download-App {
   background: linear-gradient(180deg, #111 100%, rgba(119, 119, 119, 0) 100%);
 
   padding: 16px 50px;
@@ -189,13 +188,100 @@ header {
   align-items: flex-start;
   gap: 10px;
   border-radius: 3rem;
-  border: 1px solid ;
+  border: 1px solid;
   color: #fff;
   font-size: 1rem;
-  
 }
 
 /* banner section end here */
+
+/* main section start here */
+
+main {
+  background: #000;
+  color: #fff;
+}
+
+/* Habits container */
+.habits-section {
+  text-align: center;
+}
+.habits-card-cotainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 20px 40px;
+}
+.habits-card1 h1 {
+  padding-top: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.habits-card1 p {
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+.habits-card2 h1 {
+  padding-top: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.habits-card2 p {
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+.habits-card3 h1 {
+  padding-top: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.habits-card3 p {
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+.habits-card4 h1 {
+  padding-top: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.habits-card4 p {
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+}
+.habits-card1 img {
+  border-radius: 100px;
+}
+.habits-card2 img {
+  border-radius: 100px;
+}
+.habits-card3 img {
+  border-radius: 100px;
+}
+.habits-card4 img {
+  border-radius: 100px;
+}
+
+
 
 /* Responsive layout */
 
@@ -259,6 +345,9 @@ header {
   }
   .banner-card-bottom h1 {
     margin-bottom: 5px;
+  }
+  .habits-card-cotainer {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
