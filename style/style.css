@@ -486,6 +486,83 @@ td {
 
 
 
+.cards-section{
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 18px;
+background: rgba(255, 255, 255, 0.10);
+}
+
+
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  border-radius: 1rem;
+
+}
+
+.card1{
+  width: auto;
+
+}
+.card1 img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.card2 img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.card3 img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.card4 img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.card5 img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.card6 img{
+  width: 100%;
+  border-radius: 10px;
+
+}
+.card2{
+  width: auto;
+}
+.card3{
+  width: auto;
+
+}
+.card4{
+  width: auto;
+
+}
+.card5{
+  width: auto;
+
+}
+.card6{
+  width: auto;
+
+
+
+}
+
+
+
+
 
 
 
@@ -611,13 +688,21 @@ td {
 }
 
 @media screen and (min-width: 576.99px) and (max-width: 992.99px) {
-  .fa-circle-play{
+  .banner-circel {
+    display: block;
+  }
+  .fa-circle-play {
     display: none;
+
   }
 }
 
 @media screen and (min-width: 992.99px) {
-  .fa-circle-play{
+  .banner-circel {
+    display: block;
+  }
+  .fa-circle-play {
     display: none;
+
   }
 }
