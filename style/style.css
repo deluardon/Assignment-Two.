@@ -313,10 +313,39 @@ main {
 }
 .run-img img{
   width: 100%;
+ 
+  
+  border-radius: 1rem;
+}
+.run-img{
+ padding:2rem;
 }
 .run-info{
-  
+  padding: 2rem;
 }
+.run-info h1{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.run-info small{
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+
+}
+.run-section button{
+  padding: 10px 30px;
+  background-color: #e6533c;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
 
 
 
@@ -424,6 +453,11 @@ main {
     padding: 10px;
     margin: 10px;
   }
+  .run-btn{
+    width:100% ;
+  
+  }
+  
 }
 
 @media screen and (min-width: 576.99px) and (max-width: 992.99px) {
