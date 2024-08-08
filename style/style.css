@@ -357,6 +357,140 @@ main {
 
 
 
+.table-section {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  width: 100%;
+}
+.table-section > h1 {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 120%;
+  padding-left: 4rem;
+  padding-bottom: 1rem;
+}
+.table-section > p {
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 4rem;
+  letter-spacing: 0.3px;
+}
+.table-container table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.table-container table th {
+  color: white;
+}
+.table-container h1 {
+  text-align: left;
+  padding: 50px 0px;
+}
+
+.Calculator-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #222;
+  margin: 50px 0px;
+  padding: 50px 150px;
+}
+.form-container {
+  text-align: left;
+}
+.form-container h1 {
+  padding: 20px 0px;
+}
+.form-container p {
+  padding-bottom: 50px;
+  
+}
+.form-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.input-container-1 {
+  display: flex;
+  gap: 10px;
+}
+.input-container-1 input {
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding: 0px 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.input-container-2 {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.input-container-2 input {
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding: 0px 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.from-input {
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  height: 40px;
+  width: 100%;
+  padding: 0px 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.form-container button {
+  margin-top: 20px;
+  background-color: #e6533c;
+  padding: 10px 50px;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  margin-bottom: 50px;
+}
+.form-container > input {
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url("../images/chevron-down.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.input-container-2 :nth-child(2) {
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url("../images/chevron-down.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -457,11 +591,33 @@ main {
     width:100% ;
   
   }
+
+
+    /* calculator section */
+    .Calculator-container {
+      flex-direction: column;
+      padding: 0px 20px;
+    }
+  
+    /* table section */
+    .table-section > h1 {
+      padding-left: 2rem;
+      padding-bottom: 1rem;
+    }
+    .table-section > p {
+      padding-left: 2rem;
+    }
   
 }
 
 @media screen and (min-width: 576.99px) and (max-width: 992.99px) {
+  .fa-circle-play{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992.99px) {
+  .fa-circle-play{
+    display: none;
+  }
 }
