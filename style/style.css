@@ -10,346 +10,394 @@ body {
   font-family: "Inter", sans-serif, "Miama";
 }
 
-/* navber section style here */
-.navber {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
-.navber ul li {
-  list-style-type: none;
-}
-.navber > li:first-child {
-  list-style: none;
-}
-.navber > li a:first-child {
-  text-decoration: none;
-}
 
-.navber ul {
-  gap: 2rem;
-  display: flex;
-}
-.navber ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 120%;
-}
-
-.Fitness {
-  color: #e6533c;
-  font-size: 2rem;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 120%;
-}
-
-.home {
-  border-radius: 46px;
-  padding: 8px 20px;
-  background: #e6533c;
-}
-
-.navber-menu {
-  display: none;
-}
-
-/* navber section style end here */
 
 header {
   background: linear-gradient(180deg, #111 100%, rgba(119, 119, 119, 0) 100%);
 }
 
-/* banner-section style start here */
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  color: white;
+  align-items: center;
+}
+.navbar > li {
+  list-style: none;
+}
+.navbar > li a {
+  text-decoration: none;
+  color: #fc7100;
+  font-size: 32px;
+  font-weight: 800;
+}
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu a i {
+  color: white;
+}
+.Home {
+  background: #e6533c;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+
+.banner-main-container {
+  padding-top: 50px;
+  width: 100%;
+}
+.card-tittle {
+  color: white;
+}
+.card-description {
+  color: white;
+}
 .banner-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 0px 1rem;
+  justify-content: center;
+  gap: 300px;
 }
-.banner-info {
-  color: #fff;
+.banenr-card-one {
+  background-color: #fc7100;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+  height: 95px;
+  position: absolute;
+  bottom: 100px;
+  left: -120px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 10px 10px;
+}
+
+.banenr-card-one i {
+  color: #fc7100;
+  font-size: 30px;
+}
+.banenr-card-one h5 {
+  color: white;
+  font-size: 24px;
+}
+.banenr-card-one small {
+  color: var(--Text-2, rgba(239, 237, 232, 0.65));
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.banenr-card-two {
+  background-color: #fc7100;
+  width: 200px;
+  height: 95px;
+  position: absolute;
+  top: 140px;
+  right: -80px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 10px 10px;
 }
 .banner-img {
   position: relative;
 }
 
-.banner-card-bottom {
-  position: absolute;
-  bottom: -2rem;
-  right: 25rem;
-  width: 200px;
-  height: 96px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(48, 48, 48, 0.54);
-  backdrop-filter: blur(10px);
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
+.banner-info {
+  color: white;
 }
-.banner-card-bottom h1 {
-  color: #fff;
+.banenr-card-two h3 {
+  color: white;
   font-size: 24px;
   font-weight: 900;
-  line-height: 24px;
-  letter-spacing: 0.3px;
-  margin-bottom: 10px;
 }
-.banner-card-bottom small {
-  color: var(rgba(239, 237, 232, 0.65));
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-}
-
-.banner-circel {
-  color: #e6533c;
-  font-size: 3rem;
-}
-.banner-card-top {
-  position: absolute;
-  bottom: 16rem;
-  right: 3rem;
-  width: 200px;
-  height: 96px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(48, 48, 48, 0.54);
-  backdrop-filter: blur(10px);
-  padding: 5px;
-}
-.banner-card-top h1 {
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 900;
-  line-height: 40px;
-  letter-spacing: 1px;
-  padding: 10px;
-}
-.banner-card-top small {
+.banenr-card-two small {
+  font-size: 15px;
   color: rgba(255, 255, 255, 0.65);
-  font-size: 14px;
-  padding: 10px;
 }
-
+.banner-info h1 {
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+}
 .banner-info h1 span {
   color: #fff;
   font-family: Miama;
+  color: #fff;
   font-size: 78px;
   font-weight: 400;
   line-height: 120%;
 }
-.banner-info h1 {
-  font-size: 3rem;
-  font-weight: 900;
-  line-height: 120%;
-}
 .banner-info p {
+  padding-bottom: 10px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
-  margin-top: 1rem;
 }
-
-.banner-btn-container {
-  display: flex;
-  gap: 1rem;
-  margin-top: 3rem;
-}
-.Join-Club-Now {
-  padding: 16px 50px;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 10px;
-  background-color: #e6533c;
-  border-radius: 3rem;
-  border: none;
-  color: #fff;
-  font-size: 1rem;
-}
-.Download-App {
+.banner-btn-two {
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: 1px solid white;
+  color: white;
   background: linear-gradient(180deg, #111 100%, rgba(119, 119, 119, 0) 100%);
-
-  padding: 16px 50px;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 3rem;
-  border: 1px solid;
-  color: #fff;
-  font-size: 1rem;
+}
+.banner-btn-one {
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #fc7100;
+  border: none;
 }
 
-/* banner section end here */
-
-/* main section start here */
+.banner-circle span {
+  background-color: #e6533c;
+  padding: 0.5rem 1rem;
+  border-radius: 300%;
+}
+.banner-circle img {
+  display: none;
+}
 
 main {
-  background: #000;
-  color: #fff;
+  background-color: #000;
 }
 
-/* Habits container */
-.habits-section {
-  padding-top: 4rem;
+
+.card-main-container {
   text-align: center;
 }
-.habits-card-cotainer {
+.card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   padding: 20px 40px;
 }
-.habits-card1 h1 {
-  padding-top: 1rem;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 120%;
+.card-one {
+  text-align: center;
+
+  color: white;
+  padding-bottom: 20px;
+  align-items: center;
+  text-align: center;
 }
-.habits-card1 p {
+.card-one h1 {
   padding-top: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.3px;
+  padding-bottom: 10px;
 }
-.habits-card2 h1 {
-  padding-top: 1rem;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 120%;
+
+.card-img-container {
+  padding: 10px 0px;
+  margin: auto;
+
 }
-.habits-card2 p {
-  padding-top: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.3px;
-}
-.habits-card3 h1 {
-  padding-top: 1rem;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 120%;
-}
-.habits-card3 p {
-  padding-top: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.3px;
-}
-.habits-card4 h1 {
-  padding-top: 1rem;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 120%;
-}
-.habits-card4 p {
-  padding-top: 10px;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.3px;
-}
-.habits-card1 img {
+.card-img-container img {
   border-radius: 100px;
 }
-.habits-card2 img {
-  border-radius: 100px;
+.card-small {
+  color: rgba(255, 255, 255, 0.5);
 }
-.habits-card3 img {
-  border-radius: 100px;
+.card-tittle {
+  color: #fff;
+  padding-top: 4rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
 }
-.habits-card4 img {
-  border-radius: 100px;
+.card-description {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 
-/* habits section end here */
 
-
-/* run section strat here */
-
-
-.run-section{
-  margin: 5rem 5rem;
+.run-sectaion {
+  margin: 50px 50px;
+  padding: 30px 40px;
   display: flex;
+  align-items: center;
+
+  background-color: #2b2b2b;
+  border-radius: 10px;
   justify-content: space-between;
-  padding:2rem 3rem ;
-  background-color: #222;
-
 
 }
 
-.run-img-conmtainer{
-  
+.run-img img {
+  width: 500px;
+  border-radius: 10px;
 }
 
-.run-img{
-  width: 400px;
-  height: auto;
-  /* background-image: url("../images/run.jpg"); */
+.run-info h1 {
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+}
+.run-info small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+.run-info > div button {
+  background-color: #fc7100;
+  padding: 10px 3rem;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+
+.trainings-section {
+  margin: 0px 20px;
+  color: white;
+}
+.trainings-section h1 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.trainings-section > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  padding-left: 1.5rem;
+}
+.trainings-section > small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.trainings-card-container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 0.75fr;
+}
+.trainings-card1 {
+  background: linear-gradient(
+      0deg,
+      rgba(6, 255, 210, 0.5) 0%,
+      rgba(6, 255, 210, 0.5) 100%
+    ),
+    url("../images//exercise1.jpg") lightgray 50% / cover no-repeat;
+  height: 200px;
   background-position: center;
   background-size: cover;
-
 }
-.run-img img{
-  width: 100%;
- 
-  
-  border-radius: 1rem;
+.trainings-card2 {
+  background-color: #25160a;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 0, 0, 0.3) 0%,
+      rgba(255, 0, 0, 0.3) 100%
+    ),
+    url("../images//exercise2.png") lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
 }
-.run-img{
- padding:2rem;
-}
-.run-info{
-  padding: 2rem;
-}
-.run-info h1{
-  color: #fff;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
-.run-info small{
-
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-
-}
-.run-section button{
-  padding: 10px 30px;
-  background-color: #e6533c;
-  color: #fff;
-  border: none;
-  border-radius: 1rem;
-  font-size: 1rem;
-  margin-top: 1rem;
+.trainings-card3 {
+  background-color: #645a51;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../images//exercise3.png") lightgray 50% / cover no-repeat;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
 }
 
-
-
-
-
-
-
-
-
+.trainings-card-container-two {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr 0.75fr;
+}
+.trainings-two-card-1 {
+  background-color: #fc7100;
+  height: 200px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../images//exercise4.png") lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.trainings-two-card-2 {
+  background-color: #fc7100;
+  height: 200px;
+  background: linear-gradient(
+      0deg,
+      rgba(66, 255, 0, 0.3) 0%,
+      rgba(66, 255, 0, 0.3) 100%
+    ),
+    url("../images//exercise5.jpg") lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.trainings-two-card-3 {
+  background-color: #fc7100;
+  height: 200px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 71, 255, 0.3) 0%,
+      rgba(0, 71, 255, 0.3) 100%
+    ),
+    url("../images//exercise6.jpg") lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.trainings-two-card-3 p {
+  margin: 35% 30px;
+}
+.trainings-two-card-2 p {
+  margin: 35% 30px;
+}
+.trainings-two-card-1 p {
+  margin-top: 20px;
+  margin-left: 50%;
+}
+.trainings-card1 p {
+  margin: 35% 20px;
+}
+.trainings-card2 p {
+  margin: 20px;
+}
+.trainings-card3 p {
+  margin: 35% 20px;
+}
 
 
 
@@ -478,10 +526,6 @@ td {
 
 
 
-
-
-
-
 .meet-section {
   color: white;
   text-align: center;
@@ -592,6 +636,7 @@ td {
   background-position: center;
   background-size: cover;
 }
+
 footer {
   margin-top: 50px;
   background: rgba(255, 255, 255, 0.1);
@@ -653,157 +698,252 @@ footer small {
 .fa-circle-play {
   display: none;
 }
-/* team section */
-.meat-section {
-  width: 100%;
-  background-color: #000000;
-  text-align: center;
-  padding-top: 2rem;
-  color: white;
-  /* box-shadow: 10px 10px 5px rgb(76, 76, 77) */
+
+
+.meet-title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
 }
-.meat-section hr {
-  width: 8rem;
-  margin: 1rem auto;
-  color: #49df04;
-}
-.meat-section p {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  line-height: 2rem;
-  color: #b6b6b6;
+.meet-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
 }
 
 
 
+.trainings-small{
+  margin-left: 2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive layout */
 
 @media screen and (max-width: 576.99px) {
-  /* navber section start here */
-  .navber ul {
+
+  .navbar > ul {
     display: none;
   }
-  .navber-menu {
-    display: block;
-    font-size: 1rem;
-    color: #fff;
-  }
 
-  /* navber section end here */
 
-  /* banner section start here */
-  .banner-container {
-    flex-direction: column;
-  }
-
-  .banner-card-bottom {
-    top: 48rem;
-    left: 5rem;
-    width: 145px;
-    height: 70px;
-    gap: 10px;
-  }
-  .banner-card-top {
-    bottom: -10rem;
-    right: 1.5rem;
-    width: 145px;
-    height: 70px;
-  }
-  .banner-card-top h1 {
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: 900;
-    line-height: 40px;
-    letter-spacing: 1px;
-    padding: 0px;
-  }
-  .banner-card-top small {
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 12px;
-    padding: 5px;
-  }
-
-  .banner-info {
-    text-align: left;
-  }
- 
-  .banner-card-bottom small {
-    font-size: 14px;
-  }
-  .banner-card-bottom h1 {
-    margin-bottom: 5px;
-  }
-
-  /* habits section */
-  .habits-card-cotainer {
+  .card-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  /* run section */
-  .run-section{
+  .run-sectaion {
     flex-direction: column;
-    padding: 10px;
-    margin: 10px;
+    gap: 30px;
   }
-  .run-btn{
-    width:100% ;
-  
+  .run-img img {
+
+    width: 100%;
   }
-  .banner-circel{
+  .run-img-container {
+    flex: 1;
+  }
+  .run-info {
+    flex: 1;
+  }
+  .run-btn {
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .run-btn button {
+    width: 100%;
+  }
+
+
+  .trainings-card3 {
     display: none;
   }
-  .fa-circle-play{
+  .trainings-card-container {
+    grid-template-columns: 1fr 0.8fr;
+  }
+  .trainings-card-container-two {
+    grid-template-columns: 0.8fr 1fr;
+  }
+  .trainings-two-card-3 {
+    display: none;
+  }
+  .trainings-section p{
+    display: none;
+  }
+
+
+
+  .banner-container {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .banner-img img {
+    width: 90%;
+  }
+  .banner-info {
+    text-align: left;
+    margin-left: 10px;
+  }
+  .banenr-card-two {
+    top: 50px;
+    right: 15px;
+    width: 145px;
+    height: 74px;
+  }
+  .banenr-card-one {
+    width: 150px;
+    height: 74px;
+    left: 25px;
+    bottom: 200px;
+    gap: 10px;
+  }
+  .banenr-card-one small {
+    font-size: 10px;
+  }
+
+  .banenr-card-two small {
+    font-size: 10px;
+  }
+  .banner-main-container {
+    padding-left: 16px;
+  }
+  .banner-info h1 {
+    padding-bottom: 10px;
+    font-size: 4rem;
+  }
+  .banner-info h1 span {
+    font-size: 4rem;
+  }
+  .banner-info p {
+    padding: 0rem 1rem;
+  }
+  .banner-circle span {
+    display: none;
+  }
+  .banner-circle img {
     display: block;
   }
 
 
-    /* calculator section */
-    .Calculator-container {
-      flex-direction: column;
-      padding: 0px 20px;
-    }
-  
-    /* table section */
-    .table-section > h1 {
-      padding-left: 2rem;
-      padding-bottom: 1rem;
-    }
-    .table-section > p {
-      padding-left: 2rem;
-    }
-  
+  .Calculator-container {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+
+
+  .table-section > h1 {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+  .table-section > p {
+    padding-left: 2rem;
+  }
+
+
+  .meet-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .meet-card-1 {
+    display: none;
+  }
+  .meet-card-4 {
+    display: none;
+  }
+
+  .footer-conatiner {
+    flex-direction: column;
+    padding: 70px 20px;
+  }
+  .footer-links {
+    text-align: left;
+    margin-right: 150px;
+  }
+  .fa-circle {
+    display: none;
+  }
+  .fa-circle-play {
+    display: block;
+  }
+
+
+  .team-card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    color: white;
+  }
+  .meat-section p {
+    padding: 0 1rem;
+  }
 }
+
+/* Responsive tab view */
 
 @media screen and (min-width: 576.99px) and (max-width: 992.99px) {
+  .menu {
+    display: none;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .run-img img {
+    /* width:500px ; */
+    width: 100%;
+  }
+  .run-sectaion {
+    gap: 2rem;
+  }
+  .run-info h1 {
+    font-size: 2rem;
+  }
+  .run-info small {
+    font-size: 14px;
+  }
+  .run-img-container {
+    flex: 1;
+  }
+  .run-info {
+    flex: 1;
+  }
+  .run-img img {
+  }
 
+  /* tarinings section */
+  .trainings-section br {
+    display: none;
+  }
+  /* banner section */
+  .banner-container {
+    flex-direction: column;
+    gap: 6rem;
+  }
 }
 
-@media screen and (min-width: 992.99px) {
+/* Responsive desktop view */
 
+@media screen and (min-width: 992.99px) {
+  .menu {
+    display: none;
+  }
+  .card-4 {
+    display: none;
+  }
+
+  .trainings-section br {
+    display: none;
+  }
+
+  .meet-section {
+    color: white;
+  }
+
+  .meet-card-main-container {
+    width: 100%;
+  }
+  .meet-card-container {
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+  }
 }
