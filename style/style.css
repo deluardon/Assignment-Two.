@@ -108,11 +108,7 @@ header {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-.fa-circle-play {
-  font-size: 3rem;
-  color: #e6533c;
-  display: none;
-}
+
 .banner-circel {
   color: #e6533c;
   font-size: 3rem;
@@ -486,80 +482,197 @@ td {
 
 
 
-.cards-section{
-  width: 80%;
-  margin: auto;
-  padding: 2rem;
-  border-radius: 18px;
-background: rgba(255, 255, 255, 0.10);
+.meet-section {
+  color: white;
+  text-align: center;
+}
+.meet-card-container-child {
+  width: 95%;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.1);
 }
 
-
-
-.cards{
+.meet-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  border-radius: 1rem;
+  color: white;
 
+  margin: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  row-gap: 20px;
+}
+.meet-info {
+  text-align: left;
+  margin-top: 50%;
+}
+.meet-info {
+  padding-top: 7rem;
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 120%;
+}
+.meet-info small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
 }
 
-.card1{
-  width: auto;
-
+.meet-card-1 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer1.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
 }
-.card1 img{
+.meet-card-2 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer2.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-3 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer3.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-4 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer4.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-5 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer5.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+.meet-card-6 {
+  border-radius: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../images/trainer6.png") lightgray 50% / cover no-repeat;
+  height: 372px;
+  background-position: center;
+  background-size: cover;
+}
+footer {
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-conatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 100px;
+  gap: 50px;
+}
+.footer-links h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+
+  margin-bottom: 20px;
+}
+footer hr {
+  width: 90%;
+  margin: auto;
+  stroke: rgba(255, 255, 255, 0.1);
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+footer small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.footer-end {
+  text-align: center;
+}
+.footer-info h1 {
+  color: #e6533c;
+
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+.footer-info small {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.fa-circle-play {
+  display: none;
+}
+/* team section */
+.meat-section {
   width: 100%;
-  border-radius: 10px;
-
+  background-color: #000000;
+  text-align: center;
+  padding-top: 2rem;
+  color: white;
+  /* box-shadow: 10px 10px 5px rgb(76, 76, 77) */
 }
-.card2 img{
-  width: 100%;
-  border-radius: 10px;
-
+.meat-section hr {
+  width: 8rem;
+  margin: 1rem auto;
+  color: #49df04;
 }
-.card3 img{
-  width: 100%;
-  border-radius: 10px;
-
+.meat-section p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 2rem;
+  color: #b6b6b6;
 }
-.card4 img{
-  width: 100%;
-  border-radius: 10px;
-
-}
-.card5 img{
-  width: 100%;
-  border-radius: 10px;
-
-}
-.card6 img{
-  width: 100%;
-  border-radius: 10px;
-
-}
-.card2{
-  width: auto;
-}
-.card3{
-  width: auto;
-
-}
-.card4{
-  width: auto;
-
-}
-.card5{
-  width: auto;
-
-}
-.card6{
-  width: auto;
-
-
-
-}
-
 
 
 
@@ -639,13 +752,7 @@ background: rgba(255, 255, 255, 0.10);
   .banner-info {
     text-align: left;
   }
-  .banner-circel {
-    display: none;
-  }
-  .fa-circle-play {
-    display: block;
-    font-size: 2rem;
-  }
+ 
   .banner-card-bottom small {
     font-size: 14px;
   }
@@ -668,6 +775,12 @@ background: rgba(255, 255, 255, 0.10);
     width:100% ;
   
   }
+  .banner-circel{
+    display: none;
+  }
+  .fa-circle-play{
+    display: block;
+  }
 
 
     /* calculator section */
@@ -688,21 +801,9 @@ background: rgba(255, 255, 255, 0.10);
 }
 
 @media screen and (min-width: 576.99px) and (max-width: 992.99px) {
-  .banner-circel {
-    display: block;
-  }
-  .fa-circle-play {
-    display: none;
 
-  }
 }
 
 @media screen and (min-width: 992.99px) {
-  .banner-circel {
-    display: block;
-  }
-  .fa-circle-play {
-    display: none;
 
-  }
 }
